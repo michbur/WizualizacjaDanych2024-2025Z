@@ -44,7 +44,7 @@ theme_set(theme_bw())  # pre-set the bw theme.
 
 Michał Burdukiewicz:
 
- - bioinformatyk (obecnie: Universitat Autònoma de Barcelona, Uniwersytet Medyczny w Białymstoku),
+ - bioinformatyk (obecnie: Uniwersytet Medyczny w Białymstoku, Vilnius University),
  - 16 lat doświadczenia z R,
  - Stowarzyszenie Wrocławskich Użytkowników R (stwur.pl),
  - Fundacja Why R? (whyr.pl).
@@ -63,9 +63,9 @@ Mail: michalburdukiewicz@gmail.com
 
 ## Literatura
 
- - Wilkinson, L. (2005). The Grammar of Graphics).
- - Cairo, A. (2019). How Charts Lie: Getting Smarter about Visual Information.
  - Wilke, C. (2020). Podstawy wizualizacji danych. Zasady tworzenia atrakcyjnych wykresów. (https://clauswilke.com/dataviz/)
+ - Wilkinson, L. (2005). The Grammar of Graphics.
+ - Cairo, A. (2019). How Charts Lie: Getting Smarter about Visual Information.
  - [Engebretsen M., Kennedy H. (2020). Data Visualization in Society](https://www.aup.nl/en/book/9789048543137/data-visualization-in-society).
  
 ## Plan spotkań
@@ -483,24 +483,14 @@ W podgrupach opisać wykresy wykorzystując gramatykę grafiki. Skupiamy się na
  
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
-Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WizualizacjaDanych2023-2024L/main/examples.html).
+Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WizualizacjaDanych2024-2025Z/main/examples.html).
 
 # Błędy w wizualizacjach 
 
 ## Rodzaje złych wizualizacji
 
-1. Fałszywe (przedstawiające fałszywe informacje)
+1. Fałszywe (przedstawiające fałszywe informacje).
 2. Mylące (przedstawiające fałszywie rzeczywiste informacje).
-
-## Wizualizacje i prawda
-
-<img src="https://upload.wikimedia.org/wikipedia/en/2/2a/How_to_Lie_with_Statistics.jpg" width="300px">
-
-How to Lie with Statistics, Darrell Huff
-
-## Korelacje i współwystępowanie
-
-<img src="https://victoriabensteadhume.files.wordpress.com/2017/06/chart.jpeg" width="700px">
 
 ## Złe wizualizacje
 
@@ -514,12 +504,6 @@ Trudne porównania - niewłaściwie wybrana metoda wizualizacja.
 
 Niewłaściwie wybrana metoda wizualizacji.
 
-## Złe wizualizacje
-
-<img src="https://www.datapine.com/blog/wp-content/uploads/2015/10/Percent-of-Job-Loses-Relative-to-Peak-Employment-Month.jpg" width="400px" class="center">
-
-Zbyt duża ilość informacji na jednym wykresie.
-
 ## Trzeci wymiar
 
 <img src="https://clauswilke.com/dataviz/no_3d_files/figure-html/VA-death-rates-3d-1.png" width="600px">
@@ -529,6 +513,7 @@ Source: https://clauswilke.com/dataviz/
 ## Wykresy kołowe
 
 <img src="https://support.content.office.net/en-us/media/4ffba23f-576a-4002-b39f-bbd0d293c198.gif" width="600px">
+
 
 ## Wykresy kołowe
 
@@ -540,9 +525,7 @@ Source: https://clauswilke.com/dataviz/
 
 ## Ucięte osie
 
-<img src="https://peltiertech.com/images/2011-11/Ybroken.png" width="600px">
-
-
+<img src="https://images.ctfassets.net/jicu8fwm4fvs/48VYGmTl2A1HA7FX9zJgUy/759fce13d1c192be84defd983c705d72/blog-misleading-tax-rate-graph.jpeg?q=60&fm=avif" width="600px">
 
 ## Kolory
 
@@ -598,13 +581,30 @@ Nadmiar stylizacji wykresu może zmniejszać czytelność wykresu.
 
 <a href="https://assets.weforum.org/editor/OidbpPf3QMtt2SvrmNdR4feAAmAiMHhNm59Ak5_7lp0.jpg"><img src="https://assets.weforum.org/editor/OidbpPf3QMtt2SvrmNdR4feAAmAiMHhNm59Ak5_7lp0.jpg" width="700px"></a>
 
+## Prostota
+
+<script defer class="speakerdeck-embed" data-slide="2" data-id="87bb9f00ec1e01308020727faa1f9e72" data-ratio="1.8" src="//speakerdeck.com/assets/embed.js"></script>
+
+Źródło: [Joey Cherdarchuk](https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72)
+
+## Układ treści
+
+<img src="https://victoriabensteadhume.files.wordpress.com/2017/06/chart.jpeg" width="600px">
+
+
+## Wizualizacje i prawda
+
+<img src="https://upload.wikimedia.org/wikipedia/en/2/2a/How_to_Lie_with_Statistics.jpg" width="300px">
+
+How to Lie with Statistics, Darrell Huff
+
 ## Zadanie 2
 
 W podgrupach zaproponować poprawiony wykres wykorzystując gramatykę grafiki. 
  
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
-Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WizualizacjaDanych2023-2024L/main/examples.html).
+Plik: [examples.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/michbur/WizualizacjaDanych2024-2025Z/main/examples.html).
 
 Riseup: https://pad.riseup.net/p/WWD-tmp
 
@@ -755,22 +755,9 @@ NL4DV:
  - https://nl4dv.github.io/nl4dv/
 
 
-
-## Ocena wizualizacji danych
-
-VisQual: narzędzie do oceny jakości wizualizacji danych:
-
-
- - https://medium.com/towards-data-science/why-is-this-chart-bad-5f16da298afa
- - VisQualdex: a Comprehensive Guide to Good Data Visualization, Scientific Visualization, 2023, volume 15, number 1, pages 127 - 149, DOI: 10.26583/sv.15.1.11
- 
-Autorzy: Jan Sawicki (Politechnika Warszawska), Michał Burdukiewicz.
-
 ## Kontakt
 
-Materiały: https://github.com/michbur/WizualizacjaDanych2023-2024L
-
-Riseup: https://pad.riseup.net/p/WWD-tmp
+Materiały: https://github.com/michbur/WizualizacjaDanych2024-2025L
 
 Mail: michalburdukiewicz@gmail.com
 

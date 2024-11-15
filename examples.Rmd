@@ -1,7 +1,7 @@
 ---
 title: "Przykłady"
 author: "Michał Burdukiewicz"
-date: "06-04-2024"
+date: "16-11-2024"
 output: html_document
 ---
 
@@ -36,13 +36,14 @@ Cel: pokazanie średniej liczby osób, które uzyskały prawo jazdy w danym wiek
 ## Rysunek 2
 
 ```{r}
-group_by(dat, year, age, gender) %>% 
+group_by(dat, gender, voivodeship) %>% 
   summarise(total = sum(count)) %>% 
-  ggplot(aes(x = year, y = total, color = age)) +
-  geom_point()
+  mutate(fraction = total/sum(total)) %>% 
+  ggplot(aes(x = gender, y = fraction, fill = voivodeship)) +
+  geom_col() 
 ```
 
-Cel: pokazanie liczby osób w danym wieku uzyskujących prawo jazdy w danym roku.
+Cel: pokazanie frakcji kobiet i mężczyzn uzyskujących prawo jazdy w danym województwie.
 
 
 ## Rysunek 3
@@ -66,7 +67,7 @@ Cel: pokazanie zmienności liczby uzyskanych praw jazdy w skali roku w zależno�
 ## Rysunek 4
 
 ```{r}
-group_by(dat, age, gender) %>% 
+group_by(dat, gender, age) %>% 
   summarise(total = sum(count)) %>% 
   ggplot(aes(x = age, y = total, color = gender)) +
   geom_point()

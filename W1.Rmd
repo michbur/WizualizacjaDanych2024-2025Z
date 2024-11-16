@@ -443,7 +443,7 @@ Elementy graficzne nawiązujące do treści wzmacniają przekaz i pozwalają lep
 
 ## Grafiki
 
-<a href="http://s3.amazonaws.com/wp_media-prod/app/uploads/2015/09/24112845/Infographic_Design_Example_Captora.jpg"><img src="http://s3.amazonaws.com/wp_media-prod/app/uploads/2015/09/24112845/Infographic_Design_Example_Captora.jpg" width="700px"></a>
+<a href="https://baguette.engineering/blog/country-flags-in-google-data-studio/img/flags-in-table.jpg"><img src="https://baguette.engineering/blog/country-flags-in-google-data-studio/img/flags-in-table.jpg" width="700px"></a>
 
 ## Gramatyka grafiki
 
@@ -579,11 +579,15 @@ Nadmiar stylizacji wykresu może zmniejszać czytelność wykresu.
 
 ## Prostota
 
+<a href="http://s3.amazonaws.com/wp_media-prod/app/uploads/2015/09/24112845/Infographic_Design_Example_Captora.jpg"><img src="http://s3.amazonaws.com/wp_media-prod/app/uploads/2015/09/24112845/Infographic_Design_Example_Captora.jpg" width="700px"></a>
+
+## Prostota
+
 <a href="https://assets.weforum.org/editor/OidbpPf3QMtt2SvrmNdR4feAAmAiMHhNm59Ak5_7lp0.jpg"><img src="https://assets.weforum.org/editor/OidbpPf3QMtt2SvrmNdR4feAAmAiMHhNm59Ak5_7lp0.jpg" width="700px"></a>
 
 ## Prostota
 
-<script defer class="speakerdeck-embed" data-slide="2" data-id="87bb9f00ec1e01308020727faa1f9e72" data-ratio="1.8" src="//speakerdeck.com/assets/embed.js"></script>
+<img src="./img/simplicity.png" width="600px">
 
 Źródło: [Joey Cherdarchuk](https://speakerdeck.com/player/87bb9f00ec1e01308020727faa1f9e72)
 

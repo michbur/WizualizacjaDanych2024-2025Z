@@ -527,6 +527,10 @@ Source: https://clauswilke.com/dataviz/
 
 <img src="https://images.ctfassets.net/jicu8fwm4fvs/48VYGmTl2A1HA7FX9zJgUy/759fce13d1c192be84defd983c705d72/blog-misleading-tax-rate-graph.jpeg?q=60&fm=avif" width="600px">
 
+## Ucięte osie
+
+<img src="https://peltiertech.com/images/2011-11/Ybroken.png" width="600px">
+
 ## Kolory
 
 <a href="https://venngage-wordpress.s3.amazonaws.com/uploads/2016/08/true-colors.png"><img src="https://venngage-wordpress.s3.amazonaws.com/uploads/2016/08/true-colors.png" width="700px" class="center"></a>
